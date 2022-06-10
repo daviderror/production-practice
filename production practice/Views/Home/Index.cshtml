@@ -9,10 +9,10 @@
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
-    <title>Sixteen Clothing - About Page</title>
+    <title>Sixteen Clothing HTML Template</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="~/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!--
 
     TemplateMo 546 Sixteen Clothing
@@ -48,16 +48,16 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <a class="nav-link" href="index.html">
                                 Home
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="products.html">Our Products</a>
+                            <a class="nav-link" href="../Products.cshtml">Our Products</a>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="about.html">About Us</a>
                         </li>
                         <li class="nav-item">
@@ -70,43 +70,177 @@
     </header>
 
     <!-- Page Content -->
-    <div class="page-heading about-heading header-text">
+    <!-- Banner Starts Here -->
+    <div class="banner header-text">
+        <div class="owl-banner owl-carousel">
+            <div class="banner-item-01">
+                <div class="text-content">
+                    <h4>Best Offer</h4>
+                    <h2>New Arrivals On Sale</h2>
+                </div>
+            </div>
+            <div class="banner-item-02">
+                <div class="text-content">
+                    <h4>Flash Deals</h4>
+                    <h2>Get your best products</h2>
+                </div>
+            </div>
+            <div class="banner-item-03">
+                <div class="text-content">
+                    <h4>Last Minute</h4>
+                    <h2>Grab last minute deals</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Banner Ends Here -->
+
+    <div class="latest-products">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="text-content">
-                        <h4>about us</h4>
-                        <h2>our company</h2>
+                    <div class="section-heading">
+                        <h2>Latest Products</h2>
+                        <a href="products.html">view all products <i class="fa fa-angle-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="product-item">
+                        <a href="#"><img src="~/assets/images/gotovayaeda.jpg" alt=""></a>
+                        <div class="down-content">
+                            <a href="#"><h4>Готовая еда</h4></a>
+                            <h6>от 100 рублей</h6>
+                            <p>Для тех, у кого нет времени на готовку.</p>
+                            <ul class="stars">
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                            </ul>
+                            <span>Reviews (24)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="product-item">
+                        <a href="#"><img src="~/assets/images/moloko.jpg" alt=""></a>
+                        <div class="down-content">
+                            <a href="#"><h4>Молоко и яйца</h4></a>
+                            <h6>от 40 рублей</h6>
+                            <p>Всё есть, кроме птичьего молока. Только птичьего молока нет.</p>
+                            <ul class="stars">
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                            </ul>
+                            <span>Reviews (21)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="product-item">
+                        <a href="#"><img src="~/assets/images/hf7f7.jpg" alt=""></a>
+                        <div class="down-content">
+                            <a href="#"><h4>Мясные изделия</h4></a>
+                            <h6>от 150 рублей</h6>
+                            <p>Лучшее мясо - это колбаса!.</p>
+                            <ul class="stars">
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                            </ul>
+                            <span>Reviews (36)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="product-item">
+                        <a href="#"><img src="~/assets/images/Drinks_Highball_glass_Ice_Four_4_579773_3840x2400.jpg" alt=""></a>
+                        <div class="down-content">
+                            <a href="#"><h4>Вода и напитки</h4></a>
+                            <h6>от 25 рублей</h6>
+                            <p>Ешь вода, пей вода - всё будет хорошо!.</p>
+                            <ul class="stars">
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                            </ul>
+                            <span>Reviews (48)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="product-item">
+                        <a href="#"><img src="~/assets/images/Vegetables_Fruit_Tomatoes_Bananas_Berry_Grapes_538846_4908x3300.jpg" alt=""></a>
+                        <div class="down-content">
+                            <a href="#"><h4>Фрукты и овощи</h4></a>
+                            <h6>от 20 рублй</h6>
+                            <p>Без капусты, щи не густы!</p>
+                            <ul class="stars">
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                            </ul>
+                            <span>Reviews (16)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="product-item">
+                        <a href="#"><img src="~/assets/images/Pastry_Bread_Buns_Croissant_556827_2560x1708.jpg" alt=""></a>
+                        <div class="down-content">
+                            <a href="#"><h4>Хлеб и выпечка</h4></a>
+                            <h6>от 29 рублей</h6>
+                            <p>Хлеб всему голова!</p>
+                            <ul class="stars">
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                            </ul>
+                            <span>Reviews (32)</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-
-    <div class="best-features about-features">
+    <div class="best-features">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-heading">
-                        <h2>Our Background</h2>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="right-image">
-                        <img src="~/assets/images/feature-image.jpg" alt="">
+                        <h2>About Sixteen Clothing</h2>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="left-content">
-                        <h4>Who we are &amp; What we do?</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis.</p>
-                        <ul class="social-icons">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                        <h4>Ищешь свежие продукты?</h4>
+                        <p><a rel="nofollow" href="https://templatemo.com/tm-546-sixteen-clothing" target="_parent">This template</a> is free to use for your business websites. However, you have no permission to redistribute the downloadable ZIP file on any template collection website. <a rel="nofollow" href="https://templatemo.com/contact">Contact us</a> for more info.</p>
+                        <ul class="featured-list">
+                            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                            <li><a href="#">Consectetur an adipisicing elit</a></li>
+                            <li><a href="#">It aquecorporis nulla aspernatur</a></li>
+                            <li><a href="#">Corporis, omnis doloremque</a></li>
+                            <li><a href="#">Non cum id reprehenderit</a></li>
                         </ul>
+                        <a href="about.html" class="filled-button">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="right-image">
+                        <script map="<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A6c6d1e32ba0d4b3215431435f182fb1738e0fb482e00b65fe499d7840db3dca7&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>"
                     </div>
                 </div>
             </div>
@@ -114,227 +248,19 @@
     </div>
 
 
-    <div class="team-members">
+    <div class="call-to-action">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="section-heading">
-                        <h2>Our Team Members</h2>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="team-member">
-                        <div class="thumb-container">
-                            <img src="assets/images/team_01.jpg" alt="">
-                            <div class="hover-effect">
-                                <div class="hover-content">
-                                    <ul class="social-icons">
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                                    </ul>
-                                </div>
+                    <div class="inner-content">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <h4>Creative &amp; Unique <em>Sixteen</em> Products</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque corporis amet elite author nulla.</p>
                             </div>
-                        </div>
-                        <div class="down-content">
-                            <h4>Johnny William</h4>
-                            <span>CO-Founder</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="team-member">
-                        <div class="thumb-container">
-                            <img src="assets/images/team_02.jpg" alt="">
-                            <div class="hover-effect">
-                                <div class="hover-content">
-                                    <ul class="social-icons">
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                                    </ul>
-                                </div>
+                            <div class="col-md-4">
+                                <a href="#" class="filled-button">Purchase Now</a>
                             </div>
-                        </div>
-                        <div class="down-content">
-                            <h4>Karry Pitcher</h4>
-                            <span>Product Expert</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="team-member">
-                        <div class="thumb-container">
-                            <img src="assets/images/team_03.jpg" alt="">
-                            <div class="hover-effect">
-                                <div class="hover-content">
-                                    <ul class="social-icons">
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="down-content">
-                            <h4>Michael Soft</h4>
-                            <span>Chief Marketing</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="team-member">
-                        <div class="thumb-container">
-                            <img src="assets/images/team_04.jpg" alt="">
-                            <div class="hover-effect">
-                                <div class="hover-content">
-                                    <ul class="social-icons">
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="down-content">
-                            <h4>Mary Cool</h4>
-                            <span>Product Specialist</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="team-member">
-                        <div class="thumb-container">
-                            <img src="assets/images/team_05.jpg" alt="">
-                            <div class="hover-effect">
-                                <div class="hover-content">
-                                    <ul class="social-icons">
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="down-content">
-                            <h4>George Walker</h4>
-                            <span>Product Photographer</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="team-member">
-                        <div class="thumb-container">
-                            <img src="assets/images/team_06.jpg" alt="">
-                            <div class="hover-effect">
-                                <div class="hover-content">
-                                    <ul class="social-icons">
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="down-content">
-                            <h4>Kate Town</h4>
-                            <span>General Manager</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="service-item">
-                        <div class="icon">
-                            <i class="fa fa-gear"></i>
-                        </div>
-                        <div class="down-content">
-                            <h4>Product Management</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur an adipisicing elit. Itaque, corporis nulla at quia quaerat.</p>
-                            <a href="#" class="filled-button">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="service-item">
-                        <div class="icon">
-                            <i class="fa fa-gear"></i>
-                        </div>
-                        <div class="down-content">
-                            <h4>Customer Relations</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur an adipisicing elit. Itaque, corporis nulla at quia quaerat.</p>
-                            <a href="#" class="filled-button">Details</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="service-item">
-                        <div class="icon">
-                            <i class="fa fa-gear"></i>
-                        </div>
-                        <div class="down-content">
-                            <h4>Global Collection</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur an adipisicing elit. Itaque, corporis nulla at quia quaerat.</p>
-                            <a href="#" class="filled-button">Read More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="happy-clients">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-heading">
-                        <h2>Happy Partners</h2>
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <div class="owl-clients owl-carousel">
-                        <div class="client-item">
-                            <img src="~/assets/images/client-01.png" alt="1">
-                        </div>
-
-                        <div class="client-item">
-                            <img src="~/assets/images/client-01.png" alt="2">
-                        </div>
-
-                        <div class="client-item">
-                            <img src="~/assets/images/client-01.png" alt="3">
-                        </div>
-
-                        <div class="client-item">
-                            <img src="~/assets/images/client-01.png" alt="4">
-                        </div>
-
-                        <div class="client-item">
-                            <img src="~/assets/images/client-01.png" alt="5">
-                        </div>
-
-                        <div class="client-item">
-                            <img src="~/assets/images/client-01.png" alt="6">
                         </div>
                     </div>
                 </div>
@@ -383,5 +309,8 @@
             }
         }
     </script>
+
+
 </body>
+
 </html>
